@@ -7,20 +7,12 @@
 }
 
 body {
-
-    font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 
   width: 100vw;
   height: 100vh;
 
-  background: linear-gradient(
-    to right,
-    #e9e4f0,
-    #c9c0df
-  ); 
-
-
-
+  background: linear-gradient(to right, #e9e4f0, #c9c0df);
 
   display: flex;
   flex-direction: column;
@@ -31,11 +23,9 @@ body {
   justify-content: center;
 
   gap: 2rem;
-
-
 }
 
 #mensaje {
-    font-weight: 800;
-    font-size: 100px;
+  font-weight: 800;
+  font-size: 100px;
 }
